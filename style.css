@@ -1,0 +1,70 @@
+
+:root{
+    --fristcolor:#42a5f5;
+    --secondcolor:#9c27b0;
+    --bgcolor:#ff9800;
+    --width:100%;
+}
+.extra{
+    margin-bottom:25px;
+    background-color: aqua;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    align-items:baseline;
+   /* display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;*/
+}
+.child1{
+    margin: 20px;
+    background-color: #9c27b0;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+    text-align:center ;
+    
+}
+
+div{
+    background: var(--fristcolor);
+    width: var(--width);
+   margin-left: 4px;
+ 
+
+}
+h1{
+    background: var(--secondcolor);
+    width: var(--width);
+    text-align: center;
+margin:20px ;
+}
+.main{
+    display: flex;
+    margin-top:0px;
+    justify-content:start;
+
+}
+.child{
+    background: var(--bgcolor);
+    
+    text-align: center;
+    width:100px;
+    margin-bottom: 1%;
+
+}
+.area{
+    background-color: var(--fristcolor);
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.area .child {
+    background-color: aqua;
+    width: 50px;
+    height: 80px;
+   
+}
